@@ -2,11 +2,13 @@
 
 Small Neural Network that trains a MNIST database of handwritten digits, has a training set of 60,000 examples, and a test set of 10,000 examples. The digits have been size-normalized and centered in a fixed-size 
 
+<center>
 ###### MNIST Dataset example
-<img src="images/MNIST_dataset.png"/>
+<img src="images/MNIST_examples.png"/>
 
 ###### (28x28)px - 784 nodes with a nomalized value of 0.0 = #000000(black) and 1.0 = #FFFFFF(white)
 <img src="images/input_layer.png"/>
+</center>
 
 ---
 
@@ -26,6 +28,7 @@ Extracting dataset/MNIST/raw/train-labels-idx1-ubyte.gz to dataset/MNIST/raw
 ```
 
 ---
+###### Accuracy Outputsa tests
 
 <Table><td>
 
