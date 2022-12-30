@@ -2,21 +2,6 @@
 
 Small Neural Network that trains a MNIST database of handwritten digits, has a training set of 60,000 examples, and a test set of 10,000 examples. The digits have been size-normalized and centered in a fixed-size 
 
-<center>
-
-###### MNIST Dataset example
-<img src="images/MNIST_examples.png" max-width="720"/>
-
-###### (28x28)px - 784 nodes with a nomalized value of 0.0 = #000000(black) and 1.0 = #FFFFFF(white)
-<img src="images/input_layer.png" width="720"/>
-
-###### Forward propagation
-<img src="images/layers.png" width="720"/>
-
-</center>
-
----
-
 ###### It will automatically download the dataset if not present
 
 ```
@@ -33,7 +18,17 @@ Extracting dataset/MNIST/raw/train-labels-idx1-ubyte.gz to dataset/MNIST/raw
 ```
 
 ---
-###### Accuracy Outputsa tests
+
+##### MNIST Dataset example
+<img src="images/MNIST_examples.png" max-width="720"/>
+
+##### (28x28)px - 784 nodes with a nomalized value of 0.0 = #000000(black) and 1.0 = #FFFFFF(white)
+<img src="images/input_layer.png" width="720"/>
+
+##### Forward propagation
+<img src="images/layers.png" width="720"/>
+
+##### Accuracy Outputsa tests
 
 <Table><td>
 
