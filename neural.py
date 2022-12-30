@@ -29,7 +29,7 @@ input_size = 784
 num_classes = 10
 learning_rate = 0.001
 batch_size = 64
-num_epochs = 2
+num_epochs = 1
 
 # Load Data
 train_dataset = dataset.MNIST(root='dataset/',train=True,transform=transforms.ToTensor(), download=True)
