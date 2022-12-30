@@ -39,7 +39,7 @@ train_loader = DataLoader(dataset=train_dataset, batch_size=batch_size, shuffle=
 
 # Initialize network
 model = NN(input_size=input_size, num_classes=num_classes).to(device)
-print(s.fg.yellow,"Neural Network Initialized",s.reset)
+print(s.fg.yellow,"** Neural Network Initialized **",s.reset)
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(model.parameters(), lr=learning_rate)
 
