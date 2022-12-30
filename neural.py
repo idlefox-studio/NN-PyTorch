@@ -23,19 +23,18 @@ class NN(nn.Module):
 
 # Set Device
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-
 # Hyperparameters
 input_size = 784
 num_classes = 10
 learning_rate = 0.001
-batch_size = 64
-num_epochs = 1
+batch_size = 128
+num_epochs = 2
 
 # Load Data
 train_dataset = dataset.MNIST(root='dataset/',train=True,transform=transforms.ToTensor(), download=True)
 train_loader = DataLoader(dataset=train_dataset, batch_size=batch_size, shuffle=True)
-# test_dataset = dataset.MNIST(root='dataset/', train=False, transform=transforms.ToTensor(), download=True)
-# test_loader = DataLoader(dataset=test_dataset, batch_size=batch_size, shuffle=True)
+test_dataset = dataset.MNIST(root='dataset/', train=False, transform=transforms.ToTensor(), download=True)
+test_loader = DataLoader(dataset=test_dataset, batch_size=batch_size, shuffle=True)
 
 # Initialize network
 model = NN(input_size=input_size, num_classes=num_classes).to(device)
@@ -86,7 +85,7 @@ def check_accuuracy(loader, model):
         print(s.fg.lightgrey,f"Got {num_correct}/{num_samples} with accuracy of {s.fg.green}{s.bold}{float(num_correct)/float(num_samples)*100:.2f}%",s.reset)
     model.train()
 check_accuuracy(train_loader, model)
-# check_accuuracy(test_loader, model)
+check_accuuracy(test_loader, model)
 
 wall_time = t_stop - t_start
 print(s.bold,f"Elapsed time: {s.reset}{s.fg.yellow}{wall_time:.2f} sec{s.reset}")
