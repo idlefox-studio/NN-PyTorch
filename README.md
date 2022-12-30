@@ -14,13 +14,13 @@ Small Neural Network that trains a MNIST database of handwritten digits, has a t
 
 ```
 Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
-Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to dataset/MNIST/raw/train-images-idx3-ubyte.gz
-100%|██████████████████████████████████████████████████| 9912422/9912422 [00:04<00:00, 2349166.92it/s]
+Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to dataset/MNIST...
+100%|██████████████████████████████████████████████████| 9912422/9912422 [00:04<00:00, 23...
 Extracting dataset/MNIST/raw/train-images-idx3-ubyte.gz to dataset/MNIST/raw
 
 Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz
-Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz to dataset/MNIST/raw/train-labels-idx1-ubyte.gz
-100%|██████████████████████████████████████████████████████| 28881/28881 [00:00<00:00, 2529192.90it/s]
+Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz to dataset/MNIST...
+100%|██████████████████████████████████████████████████████| 28881/28881 [00:00<00:00, 25...
 Extracting dataset/MNIST/raw/train-labels-idx1-ubyte.gz to dataset/MNIST/raw
 ...
 ```
