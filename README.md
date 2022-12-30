@@ -5,15 +5,19 @@ Small Neural Network that trains a MNIST database of handwritten digits, has a t
 <center>
 
 ###### MNIST Dataset example
-<img src="images/MNIST_examples.png"/>
+<img src="images/MNIST_examples.png" max-width="720"/>
 
 ###### (28x28)px - 784 nodes with a nomalized value of 0.0 = #000000(black) and 1.0 = #FFFFFF(white)
-<img src="images/input_layer.png"/>
+<img src="images/input_layer.png" width="720"/>
+
+###### Forward propagation
+<img src="images/layers.png" width="720"/>
+
 </center>
 
 ---
 
-###### The script will automatically download the dataset if not in the folder yet
+###### It will automatically download the dataset if not present
 
 ```
 Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
