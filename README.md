@@ -28,11 +28,11 @@ Extracting dataset/MNIST/raw/train-labels-idx1-ubyte.gz to dataset/MNIST/raw
 ##### Forward propagation
 <img src="images/layers.png" width="720"/>
 
-##### Accuracy Outputsa tests
+##### Accuracy Output tests
 
 <Table><td>
 
-```c++
+```python
 ** Neural Network Initialized **
 Training data... batch size:32 epochs:2
 ...
@@ -40,7 +40,7 @@ Checking accuracy on training data
 Got 57297/60000 with accuracy of 95.49% 
 # Elapsed time: 41.66 sec
 ```
-```c++
+```python
 ** Neural Network Initialized ** 
 Training data... batch size:64 epochs:2
 ...
@@ -48,7 +48,7 @@ Checking accuracy on training data
 Got 57109/60000 with accuracy of 95.18% 
 # Elapsed time: 30.03 sec
 ```
-```c++
+```python
 ** Neural Network Initialized ** 
 Training data... batch size:128 epochs:2
 ...
@@ -58,7 +58,7 @@ Got 56696/60000 with accuracy of 94.49%
 ```
 </td><td>
 
-```c++
+```python
 ** Neural Network Initialized ** 
 Training data... batch size:32 epochs:5
 ...
@@ -66,7 +66,7 @@ Checking accuracy on training data
 Got 58765/60000 with accuracy of 97.94% 
 # Elapsed time: 97.55 sec
 ```
-```c++
+```python
 ** Neural Network Initialized ** 
 Training data... batch size:64 epochs:5
 ...
@@ -74,7 +74,7 @@ Checking accuracy on training data
 Got 58268/60000 with accuracy of 97.11% 
 # Elapsed time: 75.11 sec
 ```
-```c++
+```python
 ** Neural Network Initialized ** 
 Training data... batch size:128 epochs:5
 ...
